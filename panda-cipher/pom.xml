@@ -1,0 +1,28 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.enjekt</groupId>
+		<artifactId>panda</artifactId>
+		<version>1.0-SNAPSHOT</version>
+		<relativePath>..</relativePath>
+	</parent>
+	<groupId>org.enjekt.panda</groupId>
+	<artifactId>panda-cipher</artifactId>
+	<version>${panda-cipher-version}</version>
+
+	<properties>
+		<vername-cipher-version>1.0-SNAPSHOT</vername-cipher-version>
+		<panda-cipher-version>1.0-SNAPSHOT</panda-cipher-version>
+	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>org.enjekt.panda</groupId>
+			<artifactId>vernmam-cipher</artifactId>
+			<version>${vername-cipher-version}</version>
+		</dependency>
+	</dependencies>
+
+
+</project>
