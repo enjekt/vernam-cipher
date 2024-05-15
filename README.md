@@ -1,7 +1,9 @@
 #vernam-cipher
+
 Vernam Cipher creates a one time pad and enciphered value of the same length as the incoming data. It can be a full document or a credit card number Encipherment is faster and more secure than encryption but the trade off is more storage space and separate storage locations.
 
 #panda-cipher
+
 Uses the vernam-cipher to encipher and decipher incoming PANs. When doing an encipherment, the data returned consists of:
 
 Token: BIN+rndm+lastFour
@@ -11,6 +13,7 @@ Panda: the padded PAN
 OTP: The One Time Pad
 
 ##Perfect Secrecy
+
 Used by the US and USSR in the cold war, the Vernam Cipher was an unbreakable method of enciphering and deciphering messages. Unlike many common encryption methods, it doesn't use an algorithm to obscure the data or make it difficult to figure out. There isn't a common key or password which, once gained, will reveal all the data. It is considered "infomation-theoretically secure" - perfect secrecy.
 
 Instead it uses a fast and simple method of generating random numbers and letters which are added to the original. If the result after addtion is found to be larger than the maximum value, the modulo of the total set size is used to wrap the results. To decipher, one simply subtracts the keys or one time pad from the enciphered value (see the wiki link below for more information).
