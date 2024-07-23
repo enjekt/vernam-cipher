@@ -1,8 +1,8 @@
-# vernam-cipher
+# Vernam-cipher
 
 Vernam Cipher creates a one time pad and enciphered value of the same length as the incoming data. It can be a full document or a credit card number Encipherment is faster and more secure than encryption but the trade off is more storage space and separate storage locations.
 
-# panda-cipher
+# Panda-cipher
 
 Uses the vernam-cipher to encipher and decipher incoming PANs. When doing an encipherment, the data returned consists of:
 
