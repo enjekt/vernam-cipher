@@ -7,9 +7,13 @@ Vernam Cipher creates a one time pad and enciphered value of the same length as 
 Uses the vernam-cipher to encipher and decipher incoming PANs. When doing an encipherment, the data returned consists of:
 
 Token: BIN+rndm+lastFour
+
 BIN: the bin number
+
 lastFour: last four digits of the PAN
+
 Panda: the padded PAN
+
 OTP: The One Time Pad
 
 ## Perfect Secrecy
